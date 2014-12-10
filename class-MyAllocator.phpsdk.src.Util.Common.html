@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class MyAllocator\phpsdk\src\Util\Common | MyAllocator PHP SDK</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?260161822">
+	<link rel="stylesheet" href="resources/style.css?2608535020">
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">MyAllocator PHP SDK</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-MyAllocator.phpsdk.src.Util.html" title="Summary of MyAllocator\phpsdk\src\Util"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="">
+			<input type="hidden" name="ie" value="UTF-8">
+			<input type="text" name="q" class="search-query" placeholder="Search">
+		</form>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.html">
+							MyAllocator<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.phpsdk.html">
+							phpsdk<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.phpsdk.src.html">
+							src<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Api.html">
+							Api						</a>
+							</li>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Exception.html">
+							Exception						</a>
+							</li>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Object.html">
+							Object						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-MyAllocator.phpsdk.src.Util.html">
+							Util						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li>
+						<a href="namespace-PHP.html">
+							PHP						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-MyAllocator.phpsdk.src.Util.Common.html">Common</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Util.Requestor.html">Requestor</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Common</h1>
+
+
+	<div class="description">
+	<p>Common methods used in the SDK.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> MyAllocator\phpsdk\src\Util<br>
+		
+
+		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Util.Common.html#31-111" title="Go to source code">Util/Common.php</a><br>
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="getAuthEnv" id="_getAuthEnv">
+
+			<td class="attributes"><code>
+				 public static
+				array(Auth,
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAuthEnv">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Util.Common.html#36-93" title="Go to source code">getAuthEnv</a>( <span>array <var>$keys</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$debug</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				<p>Get an auth object from the local ENV or test data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get an auth object from the local ENV or test data.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$keys</var></dt>
+						<dd>The authentication keys to set.
+</dd>
+						<dt><var>$debug</var></dt>
+						<dd>Enable debug.
+</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array(Auth,</code><br>string) Authentication object and bool if pulled from ENV.
+
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-MyAllocator.phpsdk.src.Exception.ApiException.html">MyAllocator\phpsdk\src\Exception\ApiException</a></code><br>If no keys supplied.
+
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getClassName" id="_getClassName">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getClassName">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Util.Common.html#95-110" title="Go to source code">getClassName</a>( <span>object|string <var>$object</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Returns the name of a class using get_class with the namespaces stripped.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the name of a class using get_class with the namespaces stripped.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$object</var></dt>
+						<dd>Object or Class Name to retrieve name
+</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>Name of class with namespaces stripped
+
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		MyAllocator PHP SDK API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js?371644040"></script>
+<script src="elementlist.js?579502964"></script>
+</body>
+</html>

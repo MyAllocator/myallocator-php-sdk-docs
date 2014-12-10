@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>todo/index.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.src.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.src.Api.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.src.Exception.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.src.Object.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-MyAllocator.phpsdk.src.Util.html</loc>
+</url>
+<url>
+	<loc>todo/namespace-PHP.html</loc>
+</url>
+
+
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.ARIUpdate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.ARIUpdateStatus.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.AssociatePropertyToPMS.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.AssociateUserToPMS.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.BookingList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.BookingPaymentDownload.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.ChannelList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.HelloUser.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.HelloVendor.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.HelloVendorUser.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.HelloWorld.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.LoopARIList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.LoopBookingAction.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.LoopBookingCreate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.LoopBookingList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.MaApi.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.PropertyCreate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.PropertyList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.PropertyModify.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomAvailabilityList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomCreate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomDelete.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomList.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomRemove.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.RoomUpdate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.UserCreate.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.UserExists.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Api.VendorSet.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.MaBaseClass.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Object.Auth.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Util.Common.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Util.Requestor.html</loc>
+</url>
+<url>
+	<loc>todo/class-Exception.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Exception.ApiAuthenticationException.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Exception.ApiConnectionException.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Exception.ApiException.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Exception.InvalidRequestException.html</loc>
+</url>
+<url>
+	<loc>todo/class-MyAllocator.phpsdk.src.Exception.MaException.html</loc>
+</url>
+</urlset>

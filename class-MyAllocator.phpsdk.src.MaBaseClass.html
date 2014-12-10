@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class MyAllocator\phpsdk\src\MaBaseClass | MyAllocator PHP SDK</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?260161822">
+	<link rel="stylesheet" href="resources/style.css?2608535020">
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">MyAllocator PHP SDK</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="namespace-MyAllocator.phpsdk.src.html" title="Summary of MyAllocator\phpsdk\src"><span>Namespace</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="">
+			<input type="hidden" name="ie" value="UTF-8">
+			<input type="text" name="q" class="search-query" placeholder="Search">
+		</form>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.html">
+							MyAllocator<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.phpsdk.html">
+							phpsdk<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-MyAllocator.phpsdk.src.html">
+							src<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Api.html">
+							Api						</a>
+							</li>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Exception.html">
+							Exception						</a>
+							</li>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Object.html">
+							Object						</a>
+							</li>
+					<li>
+						<a href="namespace-MyAllocator.phpsdk.src.Util.html">
+							Util						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
+					<li>
+						<a href="namespace-PHP.html">
+							PHP						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-MyAllocator.phpsdk.src.MaBaseClass.html">MaBaseClass</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class MaBaseClass</h1>
+
+
+	<div class="description">
+	<p>The MyAllocator base class to be extended by API's and Utilities.</p>
+
+	</div>
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-MyAllocator.phpsdk.src.Api.MaApi.html">MyAllocator\phpsdk\src\Api\MaApi</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Util.Requestor.html">MyAllocator\phpsdk\src\Util\Requestor</a></code>
+		</p>
+	</div>
+
+	<div>
+		<h3>Indirect known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdate.html">MyAllocator\phpsdk\src\Api\ARIUpdate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdateStatus.html">MyAllocator\phpsdk\src\Api\ARIUpdateStatus</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.HelloWorld.html">MyAllocator\phpsdk\src\Api\HelloWorld</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.LoopARIList.html">MyAllocator\phpsdk\src\Api\LoopARIList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingAction.html">MyAllocator\phpsdk\src\Api\LoopBookingAction</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingCreate.html">MyAllocator\phpsdk\src\Api\LoopBookingCreate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingList.html">MyAllocator\phpsdk\src\Api\LoopBookingList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html">MyAllocator\phpsdk\src\Api\PropertyChannelList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.PropertyCreate.html">MyAllocator\phpsdk\src\Api\PropertyCreate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.PropertyList.html">MyAllocator\phpsdk\src\Api\PropertyList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.PropertyModify.html">MyAllocator\phpsdk\src\Api\PropertyModify</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomAvailabilityList.html">MyAllocator\phpsdk\src\Api\RoomAvailabilityList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.AssociatePropertyToPMS.html">MyAllocator\phpsdk\src\Api\AssociatePropertyToPMS</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomCreate.html">MyAllocator\phpsdk\src\Api\RoomCreate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomDelete.html">MyAllocator\phpsdk\src\Api\RoomDelete</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomList.html">MyAllocator\phpsdk\src\Api\RoomList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomRemove.html">MyAllocator\phpsdk\src\Api\RoomRemove</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.RoomUpdate.html">MyAllocator\phpsdk\src\Api\RoomUpdate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.UserCreate.html">MyAllocator\phpsdk\src\Api\UserCreate</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.UserExists.html">MyAllocator\phpsdk\src\Api\UserExists</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.VendorSet.html">MyAllocator\phpsdk\src\Api\VendorSet</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.AssociateUserToPMS.html">MyAllocator\phpsdk\src\Api\AssociateUserToPMS</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.BookingList.html">MyAllocator\phpsdk\src\Api\BookingList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.BookingPaymentDownload.html">MyAllocator\phpsdk\src\Api\BookingPaymentDownload</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.ChannelList.html">MyAllocator\phpsdk\src\Api\ChannelList</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.HelloUser.html">MyAllocator\phpsdk\src\Api\HelloUser</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.HelloVendor.html">MyAllocator\phpsdk\src\Api\HelloVendor</a></code>, 
+			<code><a href="class-MyAllocator.phpsdk.src.Api.HelloVendorUser.html">MyAllocator\phpsdk\src\Api\HelloVendorUser</a></code>
+		</p>
+	</div>
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> MyAllocator\phpsdk\src<br>
+		
+
+		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#29-179" title="Go to source code">MaBaseClass.php</a><br>
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#39-55" title="Go to source code">__construct</a>( <span>mixed <var>$cfg</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Class contructor attempts to assign configuration parameters.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Class contructor attempts to assign configuration parameters.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cfg</var></dt>
+						<dd>&lt;p&gt;API configuration potentially containing a
+       'cfg' key with configurations to overwrite Config/Config.php.&lt;/p&gt;
+</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setConfig" id="_setConfig">
+
+			<td class="attributes"><code>
+				 public 
+				boolean|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setConfig">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#57-71" title="Go to source code">setConfig</a>( <span>key <var>$key</var> = <span class="php-keyword1">null</span></span>, <span>value <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Set an API configuration key.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set an API configuration key.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd>The configuration key.
+</dd>
+						<dt><var>$value</var></dt>
+						<dd>The configuration key value.
+</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean|null</code><br>Result of the set.
+
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getConfig" id="_getConfig">
+
+			<td class="attributes"><code>
+				 public 
+				mixed|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getConfig">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#73-83" title="Go to source code">getConfig</a>( <span>key <var>$key</var></span> )</code>
+
+			<div class="description short">
+				<p>Get an API configuration value by key.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get an API configuration value by key.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd>The configuration key.
+</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed|null</code><br>The configuration value.
+
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="debug_echo" id="_debug_echo">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug_echo">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#126-135" title="Go to source code">debug_echo</a>( <span>string <var>$str</var></span> )</code>
+
+			<div class="description short">
+				<p>Echoes a string if debugsEnabled is set to true.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Echoes a string if debugsEnabled is set to true.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$str</var></dt>
+						<dd>The string to echo.
+</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="debug_var_dump" id="_debug_var_dump">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug_var_dump">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#137-145" title="Go to source code">debug_var_dump</a>( <span>mixed <var>$obj</var></span> )</code>
+
+			<div class="description short">
+				<p>Dumps an object/variable if debugsEnabled is set to true.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Dumps an object/variable if debugsEnabled is set to true.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$obj</var></dt>
+						<dd>The object or vairable to dump.
+</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="debug_print_r" id="_debug_print_r">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug_print_r">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#147-155" title="Go to source code">debug_print_r</a>( <span>array <var>$array</var></span> )</code>
+
+			<div class="description short">
+				<p>Prints an array if debugsEnabled is set to true.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Prints an array if debugsEnabled is set to true.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$array</var></dt>
+						<dd>The array to print.
+</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="debug" id="_debug">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#157-178" title="Go to source code">debug</a>( <span>string <var>$type</var></span>, <span>mixed <var>$mixed</var></span> )</code>
+
+			<div class="description short">
+				<p>Generates some output if debugsEnabled is set to true.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Generates some output if debugsEnabled is set to true.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd>The output type.
+</dd>
+						<dt><var>$mixed</var></dt>
+						<dd>The object, array, or variable.
+</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="config" id="$config">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-MyAllocator.phpsdk.src.MaBaseClass.html#34-37" title="Go to source code"><var>$config</var></a>
+
+				<div class="description short">
+					<p>MyAllocator API configuration.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					<p>MyAllocator API configuration.</p>
+
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$config" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		MyAllocator PHP SDK API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js?371644040"></script>
+<script src="elementlist.js?579502964"></script>
+</body>
+</html>
