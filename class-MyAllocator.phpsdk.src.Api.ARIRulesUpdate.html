@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class MyAllocator\phpsdk\src\Api\LoopBookingList | MyAllocator PHP SDK</title>
+	<title>Class MyAllocator\phpsdk\src\Api\ARIRulesUpdate | MyAllocator PHP SDK</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?260161822">
 	<link rel="stylesheet" href="resources/style.css?2608535020">
@@ -92,7 +92,7 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesList.html">ARIRulesList</a></li>
-				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html">ARIRulesUpdate</a></li>
+				<li class="active"><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html">ARIRulesUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdate.html">ARIUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdateStatus.html">ARIUpdateStatus</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.AssociatePropertyToPMS.html">AssociatePropertyToPMS</a></li>
@@ -107,7 +107,7 @@
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopARIList.html">LoopARIList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingAction.html">LoopBookingAction</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingCreate.html">LoopBookingCreate</a></li>
-				<li class="active"><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingList.html">LoopBookingList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingList.html">LoopBookingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.MaApi.html">MaApi</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html">PropertyChannelList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyCreate.html">PropertyCreate</a></li>
@@ -137,11 +137,11 @@
 <div id="right">
 	<div id="rightInner">
 <div id="content" class="class">
-	<h1>Class LoopBookingList</h1>
+	<h1>Class ARIRulesUpdate</h1>
 
 
 	<div class="description">
-	<p>Querry bookings created using the loopback test channel.</p>
+	<p>Update the Avilability/Rates/Inventory for a property.</p>
 
 	</div>
 
@@ -161,7 +161,7 @@
 		</dd>
 		<dd style="padding-left:60px">
 			<img src="resources/inherit.png" alt="Extended by">
-<b><span>MyAllocator\phpsdk\src\Api\LoopBookingList</span></b>			
+<b><span>MyAllocator\phpsdk\src\Api\ARIRulesUpdate</span></b>			
 			
 			
 		</dd>
@@ -180,7 +180,7 @@
 		<b>Namespace:</b> MyAllocator\phpsdk\src\Api<br>
 		
 
-		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Api.LoopBookingList.html#29-72" title="Go to source code">Api/LoopBookingList.php</a><br>
+		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html#29-66" title="Go to source code">Api/ARIRulesUpdate.php</a><br>
 	</div>
 
 
@@ -227,7 +227,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-MyAllocator.phpsdk.src.Api.LoopBookingList.html#34-37" title="Go to source code"><var>$id</var></a>
+					<a href="source-class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html#34-37" title="Go to source code"><var>$id</var></a>
 
 				<div class="description short">
 					<p>The api to call.</p>
@@ -243,7 +243,7 @@
 			<td class="value">
 				<div>
 					<a href="#$id" class="anchor">#</a>
-					<code><span class="php-quote">'LoopBookingList'</span></code>
+					<code><span class="php-quote">'ARIRulesUpdate'</span></code>
 				</div>
 			</td>
 		</tr>
@@ -254,7 +254,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-MyAllocator.phpsdk.src.Api.LoopBookingList.html#39-71" title="Go to source code"><var>$keys</var></a>
+					<a href="source-class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html#39-65" title="Go to source code"><var>$keys</var></a>
 
 				<div class="description short">
 					<p>Array of required and optional authentication and argument
@@ -288,16 +288,10 @@
         <span class="php-quote">'opt'</span> =&gt; <span class="php-keyword1">array</span>()
     ),
     <span class="php-quote">'args'</span> =&gt; <span class="php-keyword1">array</span>(
-        <span class="php-quote">'req'</span> =&gt; <span class="php-keyword1">array</span>(),
-        <span class="php-quote">'optMin'</span> =&gt; <span class="php-num">1</span>,
-        <span class="php-quote">'opt'</span> =&gt; <span class="php-keyword1">array</span>(
-            <span class="php-quote">'ArrivalStartDate'</span>,
-            <span class="php-quote">'ArrivalEndDate'</span>,
-            <span class="php-quote">'ModifcationStartDate'</span>,
-            <span class="php-quote">'ModifcationEndDate'</span>,
-            <span class="php-quote">'CreationStartDate'</span>,
-            <span class="php-quote">'CreationEndDate'</span>
-        )
+        <span class="php-quote">'req'</span> =&gt; <span class="php-keyword1">array</span>(
+            <span class="php-quote">'ARIRules'</span>
+        ),
+        <span class="php-quote">'opt'</span> =&gt; <span class="php-keyword1">array</span>()
     )
 )</code>
 				</div>

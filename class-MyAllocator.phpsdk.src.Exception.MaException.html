@@ -156,7 +156,7 @@
 		<b>Namespace:</b> MyAllocator\phpsdk\src\Exception<br>
 		
 
-		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#29-76" title="Go to source code">Exception/MaException.php</a><br>
+		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#29-97" title="Go to source code">Exception/MaException.php</a><br>
 	</div>
 
 
@@ -174,31 +174,25 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#34-51" title="Go to source code">__construct</a>( <span>integer <var>$message</var></span>, <span>array <var>$httpStatus</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$httpBody</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$jsonBody</var> = <span class="php-keyword1">null</span> </span> )</code>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#39-52" title="Go to source code">__construct</a>( <span>string <var>$msg</var></span>, <span>array <var>$state</var> = <span class="php-keyword1">null</span></span> )</code>
 
 			<div class="description short">
-				<p>The constructor can set http status, body, and json body.</p>
+				<p>The constructor may set request/response parameters.</p>
 
 			</div>
 
 			<div class="description detailed hidden">
-				<p>The constructor can set http status, body, and json body.</p>
+				<p>The constructor may set request/response parameters.</p>
 
 
 
 					<h4>Parameters</h4>
 					<div class="list"><dl>
-						<dt><var>$message</var></dt>
-						<dd>$httpStatus The http code.
+						<dt><var>$msg</var></dt>
+						<dd>The exception description.
 </dd>
-						<dt><var>$httpStatus</var></dt>
-						<dd>$httpBody The http response body.
-</dd>
-						<dt><var>$httpBody</var></dt>
-						<dd>$jsonBody The http response body in json format.
-</dd>
-						<dt><var>$jsonBody</var></dt>
-						<dd>
+						<dt><var>$state</var></dt>
+						<dd>$args The request/response parameters.
 </dd>
 					</dl></div>
 
@@ -207,6 +201,37 @@
 
 					<h4>Overrides</h4>
 					<div class="list"><code><a href="class-Exception.html#___construct">Exception::__construct</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getState" id="_getState">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getState">#</a>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#54-60" title="Go to source code">getState</a>( )</code>
+
+			<div class="description short">
+				<p>Get the state of an exception</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the state of an exception</p>
+
+
+
+
+
+
+
 
 			</div>
 			</div></td>
@@ -222,7 +247,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getHttpStatus">#</a>
-			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#53-59" title="Go to source code">getHttpStatus</a>( )</code>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#62-72" title="Go to source code">getHttpStatus</a>( )</code>
 
 			<div class="description short">
 				<p>Get the http status code of an exception.</p>
@@ -253,7 +278,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getHttpBody">#</a>
-			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#61-67" title="Go to source code">getHttpBody</a>( )</code>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#74-84" title="Go to source code">getHttpBody</a>( )</code>
 
 			<div class="description short">
 				<p>Get the http body of an exception.</p>
@@ -284,7 +309,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_getJsonBody">#</a>
-			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#69-75" title="Go to source code">getJsonBody</a>( )</code>
+			<code><a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#86-96" title="Go to source code">getJsonBody</a>( )</code>
 
 			<div class="description short">
 				<p>Get the http body as json of an exception.</p>
@@ -329,6 +354,35 @@
 
 
 		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="state" id="$state">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-MyAllocator.phpsdk.src.Exception.MaException.html#34-37" title="Go to source code"><var>$state</var></a>
+
+				<div class="description short">
+					<p>State data before the exception.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					<p>State data before the exception.</p>
+
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$state" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		</table>
 
 		<h3>Properties inherited from <a href="class-Exception.html#properties">Exception</a></h3>
 		<p class="elementList">
@@ -350,6 +404,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?371644040"></script>
-<script src="elementlist.js?579502964"></script>
+<script src="elementlist.js?3048650062"></script>
 </body>
 </html>
