@@ -91,14 +91,17 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.AmenityList.html">AmenityList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesList.html">ARIRulesList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html">ARIRulesUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdate.html">ARIUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdateStatus.html">ARIUpdateStatus</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.AssociatePropertyToPMS.html">AssociatePropertyToPMS</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.AssociateUserToPMS.html">AssociateUserToPMS</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingAction.html">BookingAction</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingList.html">BookingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingPaymentDownload.html">BookingPaymentDownload</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingPaymentPasswordValidate.html">BookingPaymentPasswordValidate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ChannelList.html">ChannelList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.HelloUser.html">HelloUser</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.HelloVendor.html">HelloVendor</a></li>
@@ -109,13 +112,20 @@
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingCreate.html">LoopBookingCreate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingList.html">LoopBookingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.MaApi.html">MaApi</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.NotificationEmailsList.html">NotificationEmailsList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyBillingList.html">PropertyBillingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html">PropertyChannelList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyCreate.html">PropertyCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageCreate.html">PropertyImageCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageList.html">PropertyImageList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageRemove.html">PropertyImageRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyList.html">PropertyList</a></li>
 				<li class="active"><a href="class-MyAllocator.phpsdk.src.Api.PropertyModify.html">PropertyModify</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomAvailabilityList.html">RoomAvailabilityList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomCreate.html">RoomCreate</a></li>
-				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomDelete.html">RoomDelete</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageCreate.html">RoomImageCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageList.html">RoomImageList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageRemove.html">RoomImageRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomList.html">RoomList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomRemove.html">RoomRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomUpdate.html">RoomUpdate</a></li>
@@ -182,7 +192,7 @@
 		<b>Namespace:</b> MyAllocator\phpsdk\src\Api<br>
 		
 
-		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Api.PropertyModify.html#29-73" title="Go to source code">Api/PropertyModify.php</a><br>
+		<b>Located at</b> <a href="source-class-MyAllocator.phpsdk.src.Api.PropertyModify.html#29-79" title="Go to source code">Api/PropertyModify.php</a><br>
 	</div>
 
 
@@ -256,7 +266,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-MyAllocator.phpsdk.src.Api.PropertyModify.html#41-72" title="Go to source code"><var>$keys</var></a>
+					<a href="source-class-MyAllocator.phpsdk.src.Api.PropertyModify.html#41-78" title="Go to source code"><var>$keys</var></a>
 
 				<div class="description short">
 					<p>Array of required and optional authentication and argument
@@ -297,7 +307,13 @@
             <span class="php-quote">'ExpiryDate'</span>,
             <span class="php-quote">'Currency'</span>, <span class="php-comment">// 3-letter ISO 4217 currency code</span>
             <span class="php-quote">'Country'</span>, <span class="php-comment">// 2-letter ISO 3166-1 alpha-2 country code</span>
-            <span class="php-quote">'Breakfast'</span>
+            <span class="php-quote">'Breakfast'</span>,
+            <span class="php-quote">'BookingAdjust'</span>,
+            <span class="php-quote">'BookingAdjustCancellation'</span>,
+            <span class="php-quote">'BookingDownload'</span>,
+            <span class="php-quote">'EmailDefault'</span>,
+            <span class="php-quote">'EmailChannelBooking'</span>,
+            <span class="php-quote">'EmailBookNow'</span>
         )
     )
 )</code>
@@ -327,6 +343,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?371644040"></script>
-<script src="elementlist.js?3048650062"></script>
+<script src="elementlist.js?1011717377"></script>
 </body>
 </html>

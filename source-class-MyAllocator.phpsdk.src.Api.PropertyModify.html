@@ -93,14 +93,17 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.AmenityList.html">AmenityList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesList.html">ARIRulesList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIRulesUpdate.html">ARIRulesUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdate.html">ARIUpdate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ARIUpdateStatus.html">ARIUpdateStatus</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.AssociatePropertyToPMS.html">AssociatePropertyToPMS</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.AssociateUserToPMS.html">AssociateUserToPMS</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingAction.html">BookingAction</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingList.html">BookingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingPaymentDownload.html">BookingPaymentDownload</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.BookingPaymentPasswordValidate.html">BookingPaymentPasswordValidate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.ChannelList.html">ChannelList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.HelloUser.html">HelloUser</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.HelloVendor.html">HelloVendor</a></li>
@@ -111,13 +114,20 @@
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingCreate.html">LoopBookingCreate</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.LoopBookingList.html">LoopBookingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.MaApi.html">MaApi</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.NotificationEmailsList.html">NotificationEmailsList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyBillingList.html">PropertyBillingList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html">PropertyChannelList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyCreate.html">PropertyCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageCreate.html">PropertyImageCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageList.html">PropertyImageList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyImageRemove.html">PropertyImageRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.PropertyList.html">PropertyList</a></li>
 				<li class="active"><a href="class-MyAllocator.phpsdk.src.Api.PropertyModify.html">PropertyModify</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomAvailabilityList.html">RoomAvailabilityList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomCreate.html">RoomCreate</a></li>
-				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomDelete.html">RoomDelete</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageCreate.html">RoomImageCreate</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageList.html">RoomImageList</a></li>
+				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomImageRemove.html">RoomImageRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomList.html">RoomList</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomRemove.html">RoomRemove</a></li>
 				<li><a href="class-MyAllocator.phpsdk.src.Api.RoomUpdate.html">RoomUpdate</a></li>
@@ -206,12 +216,18 @@
 </span><span id="66" class="l"><a class="l" href="#66">66 </a>                <span class="php-quote">'ExpiryDate'</span>,
 </span><span id="67" class="l"><a class="l" href="#67">67 </a>                <span class="php-quote">'Currency'</span>, <span class="php-comment">// 3-letter ISO 4217 currency code</span>
 </span><span id="68" class="l"><a class="l" href="#68">68 </a>                <span class="php-quote">'Country'</span>, <span class="php-comment">// 2-letter ISO 3166-1 alpha-2 country code</span>
-</span><span id="69" class="l"><a class="l" href="#69">69 </a>                <span class="php-quote">'Breakfast'</span>
-</span><span id="70" class="l"><a class="l" href="#70">70 </a>            )
-</span><span id="71" class="l"><a class="l" href="#71">71 </a>        )
-</span><span id="72" class="l"><a class="l" href="#72">72 </a>    );
-</span><span id="73" class="l"><a class="l" href="#73">73 </a>}
-</span><span id="74" class="l"><a class="l" href="#74">74 </a></span></code></pre>
+</span><span id="69" class="l"><a class="l" href="#69">69 </a>                <span class="php-quote">'Breakfast'</span>,
+</span><span id="70" class="l"><a class="l" href="#70">70 </a>                <span class="php-quote">'BookingAdjust'</span>,
+</span><span id="71" class="l"><a class="l" href="#71">71 </a>                <span class="php-quote">'BookingAdjustCancellation'</span>,
+</span><span id="72" class="l"><a class="l" href="#72">72 </a>                <span class="php-quote">'BookingDownload'</span>,
+</span><span id="73" class="l"><a class="l" href="#73">73 </a>                <span class="php-quote">'EmailDefault'</span>,
+</span><span id="74" class="l"><a class="l" href="#74">74 </a>                <span class="php-quote">'EmailChannelBooking'</span>,
+</span><span id="75" class="l"><a class="l" href="#75">75 </a>                <span class="php-quote">'EmailBookNow'</span>
+</span><span id="76" class="l"><a class="l" href="#76">76 </a>            )
+</span><span id="77" class="l"><a class="l" href="#77">77 </a>        )
+</span><span id="78" class="l"><a class="l" href="#78">78 </a>    );
+</span><span id="79" class="l"><a class="l" href="#79">79 </a>}
+</span><span id="80" class="l"><a class="l" href="#80">80 </a></span></code></pre>
 	</div>
 
 	<div id="footer">
@@ -219,6 +235,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?371644040"></script>
-<script src="elementlist.js?3048650062"></script>
+<script src="elementlist.js?1011717377"></script>
 </body>
 </html>

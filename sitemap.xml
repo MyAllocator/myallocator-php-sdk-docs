@@ -30,6 +30,9 @@
 
 
 <url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.AmenityList.html</loc>
+</url>
+<url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.ARIRulesList.html</loc>
 </url>
 <url>
@@ -48,10 +51,16 @@
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.AssociateUserToPMS.html</loc>
 </url>
 <url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.BookingAction.html</loc>
+</url>
+<url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.BookingList.html</loc>
 </url>
 <url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.BookingPaymentDownload.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.BookingPaymentPasswordValidate.html</loc>
 </url>
 <url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.ChannelList.html</loc>
@@ -84,10 +93,25 @@
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.MaApi.html</loc>
 </url>
 <url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.NotificationEmailsList.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyBillingList.html</loc>
+</url>
+<url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyChannelList.html</loc>
 </url>
 <url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyCreate.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyImageCreate.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyImageList.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyImageRemove.html</loc>
 </url>
 <url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.PropertyList.html</loc>
@@ -102,7 +126,13 @@
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomCreate.html</loc>
 </url>
 <url>
-	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomDelete.html</loc>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomImageCreate.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomImageList.html</loc>
+</url>
+<url>
+	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomImageRemove.html</loc>
 </url>
 <url>
 	<loc>http://myallocator.github.io/myallocator-pms-php-docs/class-MyAllocator.phpsdk.src.Api.RoomList.html</loc>
